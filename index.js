@@ -4,7 +4,7 @@ const app = express();
 var server = http.createServer(app);
 
 app.get('/', function(req, res){
-    res.send('I love MinGyu on EC2');
+    res.send('I love Azure');
 });
 
 app.get('/start', function(req, res){
